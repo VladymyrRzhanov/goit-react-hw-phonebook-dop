@@ -94,7 +94,7 @@ class Form extends Component {
             required
             onChange={this.handleInputChange} />
         </InputContainer>
-        <Button type="submit"><BtnText>Add contact</BtnText><AddIcon width="32" height="32p"/></Button>
+        <Button type="submit"><BtnText>Add contact</BtnText><AddIcon width="32" height="32"/></Button>
       </ContactForm>
     );
   };
